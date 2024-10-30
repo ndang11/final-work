@@ -1,0 +1,214 @@
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+        line-height: 1.5; /* improve line spacing */
+        background-color: #f0f0f0; /* Light background for mobile */
+        font-size: 16px; /* Increase font size for readability */
+    }
+    }
+
+
+body{
+    background-color: rgb(240, 234, 227);
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+header{
+    background-image: url(/images/anim3.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+  
+}
+
+.animate{
+    display: flex;
+    direction: ltr;
+    text-indent: 1.5;
+}
+   
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    transition: background-color 0.3s;
+    color: #000;
+    padding-top
+}
+
+
+.button{
+    text-decoration-color: #ffffff;
+    border-color: #ffffff;  /* button background color */
+    height: 5px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 30px;
+
+}
+
+
+.container{
+    text-align: left;
+    grid-row: auto;
+    background-image: url(/images/anim2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+.stage{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.log{
+    display: flex;
+    width: 70px;
+    height: 30px;
+    mix-blend-mode: multiply;
+
+    
+}
+
+main{
+    text-align: center;
+    max-width: fit-content;
+    padding: 0%;
+    
+}
+
+.container1{
+    background-image: url(/images/anim3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.grid-container{
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    
+    
+}
+
+.sec{
+    display: flex;
+}
+
+.icons{
+    align-items: center;
+    box-shadow: 30px;
+    text-align: center;
+    display: flexbox;
+    line-height: 1.5;
+    background-color: white;
+}
+
+.last-line{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.last-line2{
+    background-attachment: fixed;
+    background-color: white;
+    background-size: cover;
+}
+
+.color{
+    text-align: left;
+}
+
+
+
+section{
+    font-display: center;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+.section1{
+    text-align: center;
+    background-color: white;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 10%;
+}
+
+.step{
+    justify-items: center;
+    width: 0%;
+    height: 0%;
+
+}
+
+.place{
+    background-image: url(/images/anim2.jpg);
+}
+
+.support{
+    justify-content: center;
+
+}
+
+.ticket{
+    justify-content: center;
+    background-color: white;
+    border-radius: 0%;
+    width: 10%;
+    height: 10%;
+    margin: auto;
+}
+
+.last{
+    background-color: white;
+    justify-content: center;
+}
+
+.side-text{
+    text-align: justify;
+    text-justify: distribute;
+}
+
+.about{
+    background-color: bisque;
+}
+
+
+
+footer{
+    background-color: rgb(47, 129, 98);
+    
+    
+}
+
+.last-logo{
+    height: auto%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    mix-blend-mode: multiply;
+}
+
+
