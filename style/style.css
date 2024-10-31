@@ -61,11 +61,10 @@ header{
 
 
 .container{
-    text-align: left;
-    grid-row: auto;
-    background-image: url(/images/anim2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    mix-blend-mode: multiply;
+    width: 0%;
+    height: 0%;
+    padding: 0%;
     background-size: cover;
     
    
