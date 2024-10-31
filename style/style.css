@@ -14,6 +14,7 @@ body{
     background-color: rgb(212, 219, 211);
     height: 100%;
     width: 100%;
+    justify-content: center;
     
 }
 
@@ -36,9 +37,11 @@ header{
     color: #f0f0f0;
 }
 
+
 .animate{
     display: block;
     background-size: cover;
+    color: rgb(41, 39, 30);
 }
    
 
@@ -65,16 +68,17 @@ header{
     width: 0%;
     height: 0%;
     padding: 0%;
-    background-size: cover;
-    
-   
+      
 }
+
 
 .stage{
     text-align: left;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 
 .log{
     display: flex;
@@ -84,12 +88,14 @@ header{
     
 }
 
+
 main{
     text-align: center;
     max-width: fit-content;
     padding: 0%;
     
 }
+
 
 .container1{
     background-image: url(/images/anim3.jpg);
@@ -100,6 +106,7 @@ main{
     text-align: center;
     
 }
+
 
 .grid-container{
     border-radius: 0px;
@@ -121,9 +128,10 @@ main{
     box-shadow: 30px;
     text-align: center;
     display: flexbox;
-    background-color: rgb(233, 219, 219);
+    background-color: rgb(235, 191, 191);
     
 }
+
 
 .last-line{
     background-color: white;
@@ -131,11 +139,13 @@ main{
     
 }
 
+
 .last-line2{
     background-attachment: fixed;
     background-color: white;
     background-size: cover;
 }
+
 
 .color{
     text-align: left;
@@ -150,6 +160,7 @@ section{
 
 }
 
+
 .section1{
     text-align: center;
     background-color: white;
@@ -158,6 +169,7 @@ section{
     mix-blend-mode: multiply;
 }
 
+
 .step{
     justify-items: center;
     width: 0%;
@@ -165,14 +177,17 @@ section{
 
 }
 
+
 .place{
     background-image: url(/images/anim2.jpg);
 }
+
 
 .support{
     justify-content: center;
 
 }
+
 
 .ticket{
     justify-content: center;
@@ -183,28 +198,40 @@ section{
     margin: auto;
 }
 
+
 .last{
     background-color: white;
     justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
 }
+
 
 .side-text{
     text-align: justify;
     text-justify: distribute;
 }
 
+
 .about{
     background-color: bisque;
-    background-size: cove
+    background-size: cover;
+    box-sizing: border-box;
+    display: flexbox;
+    margin: 20px;
+    padding: 20px;
+    
 }
+
 
 
 footer{
     background-color: rgb(47, 129, 98);
     color: #f0f0f0;
-    
-    
+       
 }
+
 
 .last-logo{
     height: 0%;
@@ -213,6 +240,7 @@ footer{
     flex-wrap: wrap;
     mix-blend-mode: multiply;
 }
+
 
 .end{
     display: flex;
