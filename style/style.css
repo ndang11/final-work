@@ -249,11 +249,458 @@ footer{
 
 
 @media screen  and (min-width: 600px) {
-    
+    body{
+        font-size: 20px;
+    }
 }
 
 
 header{
     text-align: left;
+    background-image: url(/images/image3.jpg);
+    background-size: cover; /* or 'contain' */
+    background-repeat: no-repeat;
     
+}
+
+
+.container{
+    justify-items: left;
+    padding: 0px;
+    height: 0%;
+    width: 20%;
+    transform-origin: top left;
+    transform: scale(0.5);
+}
+
+
+.navbar{
+    border-right: ; color: tomato;
+    justify-content: 0.5%;
+    margin-right: 5%;
+    margin-left: 15%;
+    
+}
+
+
+.stage{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+.button-one{
+    border-bottom: #bb3d3d;
+}
+
+
+.animate{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    gap: 1.5;
+    margin-top: 50px;
+
+}
+
+
+.first{
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.log{
+    display: flex;
+    width: 300px;
+    height: 140px;
+   
+}
+
+.small{
+    color: #c03030;
+    justify-content: end;
+}
+
+.color{
+    text-justify: newspaper;
+    width: 600px;
+}
+
+
+.rate{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+main{
+    .img22{
+        justify-content: right;
+    }
+    
+}
+
+
+
+.container1{
+    justify-content: space-between;
+
+}
+
+
+.rate{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.grid-container{
+    justify-content: left;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+.sec{
+    display: flex;
+    font-size: 10px;
+    gap: 20%;
+
+}
+
+
+.icons{
+    box-shadow: 0 4px 4px blue;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: aqua;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 10%; /* space between boxes */
+    font-size: 10px;
+    display: flex;
+    height: 300px;
+    
+}
+
+
+.last-line2{
+    box-shadow: 0 4px 4px blue;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 15%;
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+
+.line22{
+    mix-blend-mode: multiply;
+
+}
+
+.line11{
+    mix-blend-mode: multiply;
+
+}
+
+.last-line{
+    mix-blend-mode: multiply;
+    
+}
+
+.started{
+    mix-blend-mode: multiply;
+
+}
+
+
+.just{
+    mix-blend-mode: multiply;
+
+}
+
+
+.none{
+    mix-blend-mode: multiply;
+
+}
+
+
+.color{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+
+.container1{
+    justify-content: left;
+    display: flex;
+    justify-content: space-between; 
+
+    
+}
+
+
+.container2{
+
+    justify-content: space-between;
+    gap: 1.5;
+}
+
+
+.line1{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 100px;
+    padding: 2%;
+    flex-direction: row;
+    text-align: right; 
+    justify-content: space-between;
+
+}
+
+
+.line2{
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 100px;
+    padding: 2%;
+    flex-direction: row;
+    row-gap: 10%;
+    gap: 10%;
+}
+
+
+.line3{
+    padding: 2%;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    text-align: center;
+ 
+}
+
+
+.img22{
+    box-shadow: 0 4px 4px;
+
+}
+
+
+
+section{
+    box-shadow: 0 4px 4px blue;
+ 
+}
+
+
+.step{
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section1{
+    display: grid;
+    display: flex;  
+    flex-wrap: wrap;
+    width: 80px;
+    height: 600%;
+    align-content: center;
+
+}
+
+
+.easy{
+    justify-content: center;
+    box-shadow: 0 4px 4px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+    
+
+}
+
+
+.step2{
+    box-shadow: 0 4px 4px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+.step3{
+    box-shadow: 0 4px 4px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+
+.step4{
+    box-shadow: 0 4px 4px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+.place{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    border-radius: 2%;
+}
+.read{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    mix-blend-mode: multiply;
+
+}
+
+
+.support{
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin: 5%;
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 2%;
+     
+}
+
+
+.ticket{
+    border-radius: 5px;
+    margin-top: 5%;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+    padding: 2%;
+   
+}
+
+
+.last{
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin: 5%;
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 2%;
+   
+}
+
+
+article{
+    text-align: center;
+    display: flex;
+
+}
+
+
+.about{
+    display: flex;
+    box-shadow: 0 4px 4px;
+     
+}
+
+
+.sub{
+    border-radius: 30%;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    display: flex;
+    box-shadow: 0 4px 4px;
+
+}
+
+
+.sub2{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-radius: 100%;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+
+footer{
+    background-color: #c03030;
+    color: black;
+    mix-blend-mode: multiply;
+}
+
+
+.last-logo{
+    width: 60%;
+    height: 150px;
+    justify-items: left;
+    mix-blend-mode: multiply;
+    padding: 2%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    gap: 1%;
+    text-wrap: 2%;
+    transform-origin: left;
+    transform: scale(0.5);
+    
+}
+
+
+.made{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 3%;
+    font-size: 40px;
+}
+
+
+.xan{
+    transform: scale(0.5);
+    transform-origin: left;
+
+}
+
+
+.work{
+    display: flex;
+}
+
+
+.mini{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.end{
+    display: flex;
 }
