@@ -261,6 +261,7 @@ header{
     background-size: cover; /* or 'contain' */
     background-repeat: no-repeat;
     
+    
 }
 
 
@@ -287,44 +288,47 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
     
 }
 
 
 .button-one{
-    border-bottom: #bb3d3d;
+    box-shadow: 0 4px 4px;
+
+}
+
+
+.grid{
+    display: flex;
+    margin: 5%;
 }
 
 
 .animate{
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffffff;
-    gap: 1.5;
-    margin-top: 50px;
-
-}
-
-
-.first{
-    justify-content: right;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 0%;
     
 }
 
 
+
 .log{
     display: flex;
-    width: 300px;
-    height: 140px;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
    
 }
+
 
 .small{
     color: #c03030;
     justify-content: end;
 }
+
 
 .color{
     text-justify: newspaper;
@@ -337,10 +341,9 @@ header{
     margin-bottom: 10%;
 }
 
+
 main{
-    .img22{
-        justify-content: right;
-    }
+   justify-content: right;
     
 }
 
@@ -359,82 +362,102 @@ main{
 
 
 .grid-container{
-    justify-content: left;
-    display: flex;
     justify-content: space-between;
+    display: flex;
     height: 100px;
+    color: black;
+    background-color: aquamarine;
+    margin-bottom: 5%;
+    padding: 25px;
 }
 
 
 .sec{
     display: flex;
-    font-size: 10px;
+    font-size: 15px;
     gap: 20%;
 
 }
 
 
 .icons{
-    box-shadow: 0 4px 4px blue;
+    background-color: white;
     text-align: center;
-    border-radius: 5px;
-    padding: 1rem 0;
-    background-color: aqua;
-    margin-bottom: 2%;
+    gap: 2%;
     margin-top: 5%;
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    gap: 10%; /* space between boxes */
+    margin-bottom: 5%;
     font-size: 10px;
     display: flex;
-    height: 300px;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
     
 }
 
 
-.last-line2{
-    box-shadow: 0 4px 4px blue;
-    text-align: center;
-    border-radius: 5px;
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    gap: 15%;
-    font-size: 15px;
-    display: flex;
-    margin-bottom: 10%;
-}
-
 
 .line22{
-    mix-blend-mode: multiply;
-
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border: 5px;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+     
 }
 
 .line11{
     mix-blend-mode: multiply;
-
+    text-align: center;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 4px;
+     
 }
 
 .last-line{
     mix-blend-mode: multiply;
+    text-align: center;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 4px;
+     
     
 }
 
 .started{
     mix-blend-mode: multiply;
-
+    box-shadow: 0 4px 4px;
+    text-align: center;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+     
 }
 
 
 .just{
     mix-blend-mode: multiply;
+    box-shadow: 0 4px 4px;
+    text-align: center;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
 
 }
 
 
 .none{
     mix-blend-mode: multiply;
+    box-shadow: 0 4px 4px;
+    text-align: center;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+     
 
 }
 
@@ -450,40 +473,43 @@ main{
     justify-content: left;
     display: flex;
     justify-content: space-between; 
-
-    
+  
 }
 
 
 .container2{
-
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 1.5;
+    display: flex;
+    font-size: 15px;
+    height: 100%;
+}
+
+
+.long{
+    display: flex;
+
 }
 
 
 .line1{
     display: flex;
-    position: relative;
     width: 600px;
     height: 100px;
     padding: 2%;
-    flex-direction: row;
+    border: 2px;
+    border-radius: 5px;
     text-align: right; 
-    justify-content: space-between;
 
 }
 
 
 .line2{
-    position: relative;
     display: flex;
     width: 600px;
     height: 100px;
     padding: 2%;
-    flex-direction: row;
-    row-gap: 10%;
-    gap: 10%;
 }
 
 
@@ -492,14 +518,15 @@ main{
     height: 100px;
     width: 600px;
     display: flex;
-    text-align: center;
  
 }
 
 
 .img22{
-    box-shadow: 0 4px 4px;
-
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    
 }
 
 
@@ -518,52 +545,70 @@ section{
 
 
 .section1{
-    display: grid;
-    display: flex;  
+    display: flex; 
     flex-wrap: wrap;
-    width: 80px;
-    height: 600%;
-    align-content: center;
+    gap: 2%;
+ 
+}
+
+
+.form{
+    display: flex;
+    gap: 500px;
+}
+
+
+.product{
+    height: 50vh;
+    width: 40vh;
+    display: flex;
+    margin-top: 3%;
 
 }
 
 
-.easy{
+.top{
     justify-content: center;
-    box-shadow: 0 4px 4px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 2%;
+    display: flex;
     
+}
+
+.product2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    
+}
+
+
+.easy{
+    margin-top: 3%;
 
 }
 
 
 .step2{
-    box-shadow: 0 4px 4px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 2%;
+    
 }
 
+
 .step3{
-    box-shadow: 0 4px 4px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 2%;
+    
 }
 
 
 .step4{
-    box-shadow: 0 4px 4px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 2%;
+    
+
+
 }
 
 .place{
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(/images/new44.jfif);
     width: 100%;
     height: 50%;
     padding-top: 10%;
@@ -617,7 +662,7 @@ section{
 
 article{
     text-align: center;
-    display: flex;
+    display: flex;  
 
 }
 
@@ -628,6 +673,19 @@ article{
      
 }
 
+.base{
+    width: 90vh;
+    height: 70vh;
+    
+}
+
+
+.min{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 
 .sub{
     border-radius: 30%;
@@ -635,8 +693,19 @@ article{
     height: 20%;
     object-fit: cover;
     display: flex;
-    box-shadow: 0 4px 4px;
+    margin-top: 30%;
 
+}
+
+
+.one{
+    justify-content: center;
+}
+
+
+.group{
+    display: flex;
+    gap: 50px;
 }
 
 
@@ -647,7 +716,7 @@ article{
     border-radius: 50%;
     border-radius: 100%;
     display: flex;
-    margin-bottom: 10%;
+    margin-top: 30%;
 }
 
 
@@ -693,11 +762,22 @@ footer{
     display: flex;
 }
 
+.round{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
 
 .mini{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+}
+
+
+.none{
+
 }
 
 
